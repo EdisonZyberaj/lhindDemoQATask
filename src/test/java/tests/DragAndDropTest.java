@@ -4,8 +4,10 @@ import base.BaseTest;
 import dragAndDrop.DragAndDrop;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(utils.ExtentReportManager.class)
 public class DragAndDropTest extends BaseTest {
 
     private DragAndDrop dragAndDrop;
