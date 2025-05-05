@@ -19,7 +19,7 @@ public class ExtentReportManager implements ITestListener {
         reportName = "Test-Report-" + timeStamp + ".html";
 
         ExtentSparkReporter htmlReporter = new ExtentSparkReporter("./reports/" + reportName);
-        htmlReporter.config().setDocumentTitle("Selenium Test Results");
+        htmlReporter.config().setDocumentTitle("    Test Results");
         htmlReporter.config().setReportName("Test Results");
         htmlReporter.config().setTheme(Theme.STANDARD);
 
