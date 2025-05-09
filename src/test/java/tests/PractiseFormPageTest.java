@@ -34,7 +34,7 @@ public class PractiseFormPageTest extends BaseTest {
         String state = "Uttar Pradesh";
         String city = "Lucknow";
 
-        String filePath = new File("C:\\Users\\dell\\IdeaProjects\\Lhind-SeleniumTask2\\src\\main\\resources\\photo.png").getAbsolutePath();
+        String filePath = new File("").getAbsolutePath();
 
         formPage.enterFirstName(firstName)
                 .enterLastName(lastName)
